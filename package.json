@@ -1,0 +1,25 @@
+{
+  "name": "genweb",
+  "version": "0.0.1",
+  "description": "super simple static web generator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Frees <scott.frees@gmail.com> (http://scottfrees.com/)",
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-sftp-deploy": "*",
+    "ignore": "^2.2.19",
+    "marked": "^0.3.5",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "node-dir": "^0.1.11",
+    "shelljs": "^0.5.3",
+    "touch": "^1.0.0"
+  },
+  "bin": {
+    "genweb": "index.js"
+  }
+}
