@@ -9,9 +9,9 @@ var shell = require('shelljs');
 
 var argv = require('minimist')(process.argv.slice(2));
 
-var root = process.cwd();
-var source_path = path.join(root, "/source/");
-var site_path = path.join(root, "/site/");
+var root = "/Users/sfrees/projects/ramapo/";;//process.cwd();
+var source_path = "/Users/sfrees/projects/ramapo/source/";//path.join(root, "/source/");
+var site_path = "/Users/sfrees/projects/ramapo/site/";//path.join(root, "/site/");
 
 function fileExists(filePath)
 {
